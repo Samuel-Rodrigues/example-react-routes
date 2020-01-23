@@ -1,4 +1,4 @@
-Aplicação exemplo React para utilização de Rotas no React.
+Aplicação exemplo nde Rotas no React, utilizando react-router-dom
 
 # npm i react-router-dom
 
