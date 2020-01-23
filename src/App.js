@@ -10,14 +10,24 @@ function App() {
   return (
     <Router>
       <div className="App">
+        <div className="navManu">
+          <Link to='/'>
+            <button className="buttonHome">
+              <strong>Home</strong>
+            </button>
+          </Link>
+          <Link to='/page1'>
+            <button className="buttonPage1">
+              <strong>Mostrar página 01</strong>
+            </button>
+          </Link>
+          <Link to='/page2'>
+            <button className="buttonPage2">
+              <strong>Mostrar página 02 </strong>
+            </button>
+          </Link>
+        </div>
         <header className="App-header">
-          <button>
-            <Link to='/page1'> <strong>Mostrar página 01</strong> </Link>
-          </button>
-          <button>
-            <Link to='/page2'> <strong>Mostrar página 02 </strong></Link>
-          </button>
-          
           <Routes />
         </header>
       </div>

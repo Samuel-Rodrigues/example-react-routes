@@ -1,9 +1,13 @@
 import React from 'react'
 
-export default () =>{
-  return(
-    <h3>
-      Olá, eu sou a Pagina 02
+import './Page2.css'
+
+export default () => {
+  return (
+    <div className="p2">
+      <h3>
+        Olá, eu sou a Pagina 02
     </h3>
+    </div>
   )
 }

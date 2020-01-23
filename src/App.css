@@ -7,6 +7,26 @@
   pointer-events: none;
 }
 
+button {
+  height: 50px;
+}
+
+.buttonHome {
+  background-color: rgb(243, 242, 242);
+}
+
+.buttonPage1 {
+  background-color: rgb(180, 104, 104);
+}
+
+.buttonPage2 {
+  background-color: rgb(127, 204, 76);
+}
+
+.navManu {
+  height: 50px;
+  background-color: #282c34;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
