@@ -4,7 +4,7 @@ Aplicação exemplo de Rotas no React, utilizando react-router-dom
 
 Navegação simples com 3 rotas: Home, Page 1 e page 2
 
-exeplo hospedado no AWS
+exemplo hospedado no AWS
 https://master.d20kd491fh35k2.amplifyapp.com/
 
 
