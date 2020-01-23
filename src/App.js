@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 import { BrowserRouter as Router, Link } from 'react-router-dom';
@@ -8,9 +7,13 @@ import Routes from './Routes'
 
 function App() {
   return (
-    <Router>
+
+    //* Componente Router deve abranger todo o corpo do código */ 
+    <Router >
       <div className="App">
         <div className="navManu">
+
+          {/* Link similar ha TAG a. Sem refresh de pagina */}
           <Link to='/'>
             <button className="buttonHome">
               <strong>Home</strong>
@@ -28,10 +31,12 @@ function App() {
           </Link>
         </div>
         <header className="App-header">
+          
+          {/* Aqui será mostrada todas as páginas(componentes da apliacação.) */}
           <Routes />
         </header>
       </div>
-    </Router>
+    </Router >
   );
 }
 

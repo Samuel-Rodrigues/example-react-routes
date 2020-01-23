@@ -14,11 +14,15 @@ class Routes extends React.Component {
   render() {
     return (
       <Switch>
+        {/* ROTAS EXATAS */}
         <Route exact path='/' component={Home} />
         <Route exact path='/page1' component={Page1} />
         <Route exact path='/page2' component={Page2} />
 
+        {/* ROTAS "FILHAS"*/}
         <Route path='/page1/page1.1' component={Mini1} />
+        
+        {/* ROTA SEM CAMINHO ESPECÍFICO */}
         <Route
           render={() => {
             return <h1> Página não encontrada </h1>
